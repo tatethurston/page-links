@@ -15,6 +15,8 @@ The chrome extension is built by running `yarn build:extension` from the project
 
 ## Credit
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Link icon was made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+<div>Check icon was made by <a href="https://www.flaticon.com/free-icon/checked_709510?related_item_id=758569&term=success" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 [Chrome Manifest Icon sizes](https://developer.chrome.com/apps/manifest/icons)

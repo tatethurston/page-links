@@ -1,8 +1,11 @@
 import LinkSVG from "./link.svg";
+import CheckSVG from "./checked.svg";
 import { css } from "@linaria/core";
 import { copy, setHash } from "../utils";
 
 function getId($el: Element): string | undefined {
+  // use the headers id or the first child element's id
+  // some websites don't place an id on the heading but do on the child element
   return $el.id || $el.querySelector("[id]")?.id;
 }
 
@@ -18,17 +21,6 @@ const link = css`
     transform: translatey(-50%) !important;
     height: min(1em, 20px) !important;
   }
-`;
-
-const copied = css`
-  top: 50% !important;
-  transform: translatey(-50%) !important;
-  position: absolute !important;
-  background-color: #202124 !important;
-  border-radius: 5px !important;
-  color: hsla(0, 0%, 100%, 0.87) !important;
-  padding: 0.25em !important;
-  font-size: min(0.5em, 20px) !important;
 `;
 
 const wrap = css`
@@ -56,7 +48,7 @@ function addLink($header: Element, id: string): void {
   );
   $link.addEventListener("click", () => {
     copy(setHash(window.location.href, id));
-    $link.innerHTML = `<span class="${copied}">Copied!</span>`;
+    $link.innerHTML = CheckSVG as string;
   });
   $header.classList.add(wrap);
   $header.addEventListener("mouseenter", () => {

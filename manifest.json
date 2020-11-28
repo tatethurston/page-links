@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Easily generate intrapage links",
   "short_name": "Page Links",
-  "permissions": ["contextMenus", "activeTab", "declarativeContent", "<all_urls>"],
+  "permissions": ["contextMenus", "activeTab"],
   "background": {
     "persistent": false,
     "scripts": ["background.js"]
