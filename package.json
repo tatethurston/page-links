@@ -1,6 +1,6 @@
 {
   "name": "page-links",
-  "description": "Easily generate intrapage links",
+  "description": "Share links to specfic sections or text on a webpage",
   "license": "MIT",
   "author": "Tate <tatethurston@gmail.com>",
   "repository": "git@github.com:tatethurston/page-links.git",
