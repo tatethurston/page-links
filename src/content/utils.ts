@@ -44,10 +44,11 @@ function htmlToElement(html: string): Element {
 function addLink($header: Element, id: string): void {
   let isShowing = false;
   const $link = htmlToElement(
-    `<span class="${link}" title="Copy link to clipboard" />`
+    `<a class="${link}" title="Copy link to clipboard" />`
   );
   $link.addEventListener("click", () => {
     copy(setHash(window.location.href, id));
+    $link.setAttribute("title", "Copied!");
     $link.innerHTML = CheckSVG as string;
   });
   $header.classList.add(wrap);
