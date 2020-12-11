@@ -43,9 +43,7 @@ function htmlToElement(html: string): Element {
 
 function addLink($header: Element, id: string): void {
   let isShowing = false;
-  const $link = htmlToElement(
-    `<a class="${link}" title="Copy link to clipboard" />`
-  );
+  const $link = htmlToElement(`<a class="${link}"/>`);
   $link.addEventListener("click", () => {
     copy(setHash(window.location.href, id));
     $link.setAttribute("title", "Copied!");
@@ -55,6 +53,7 @@ function addLink($header: Element, id: string): void {
   $header.addEventListener("mouseenter", () => {
     if (!isShowing) {
       isShowing = true;
+      $link.setAttribute("title", "Copy link to clipboard!");
       $link.innerHTML = LinkSVG as string;
     }
   });
