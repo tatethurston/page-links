@@ -1,18 +1,28 @@
 # Page Links
 
-Generate and share URLs to specific text or sections of any webpage.
+Generate and share links to text or headings on any webpage.
 
-Once the [extension](https://chrome.google.com/webstore/detail/page-links/bokkeodjhlniciglmfingmkojimjefdp) is installed, highlight the text you want to link to, right click and select "Copy link to...". This will copy a URL that can be shared with anyone\* to link directly to selected text.
+Once the extension is installed, highlight the text you want to link to, right click, and select "Copy link to ...". This will copy a URL that can be shared with anyone\* to link directly to selected text.
 
-When opening the URL, the opener's browser will scroll to the linked selected text and that text will be highlighted.
+When following the shared link, the opener's browser will scroll to and highlight the text that was previously selected.
 
-You can see an example of linking to specific text by following [this link](https://web.dev/text-fragments/#:~:text=The%20Text%20Fragments%20proposal%20adds%20support%20for%20specifying%20a%20text%20snippet%20in%20the%20URL%20hash.%20When%20navigating%20to%20a%20URL%20with%20such%20a%20text%20fragment%2C%20the%20user%20agent%20can%20emphasize%20and%2For%20bring%20it%20to%20the%20user's%20attention.).
+You can see an example of linking to specific text by pasting this URL into your browser:
 
-If you'd prefer to link to a specific section of the webpage, you can generate a link to any header on the page. Hover over any header and a link icon will show. Clicking that link icon will copy a URL that can be shared with anyone, regardless of the browser they are use.
+https://web.dev/text-fragments/#:~:text=The%20Text%20Fragments%20proposal%20adds%20support%20for%20specifying%20a%20text%20snippet%20in%20the%20URL%20hash.%20When%20navigating%20to%20a%20URL%20with%20such%20a%20text%20fragment%2C%20the%20user%20agent%20can%20emphasize%20and%2For%20bring%20it%20to%20the%20user's%20attention.
 
-You can see an example of linking to the Browser Compatibility section of this page by following [this link](https://web.dev/text-fragments/#browser-compatibility).
+Following this link will scroll the browser to and highlight the following text on that page:
 
-\* Linking to text is enabled by Text Fragments, which is currently supported in Chrome and Edge. This functionality will not work in other browsers like Safari or Firefox. Linking to headers will work on all browsers.
+"The Text Fragments proposal adds support for specifying a text snippet in the URL hash. When navigating to a URL with such a text fragment, the user agent can emphasize and/or bring it to the user's attention."
+
+You can also generate a link to any heading on the page. Simply hover over any header and a link icon will show. Click the link to copy a URL that will link directly to that heading.
+
+You can see an example of linking to a heading by pasting this link into your browser:
+
+https://web.dev/text-fragments/#browser-compatibility.
+
+The browser will scroll to the 'Browser Compatibility' heading on the page.
+
+\* Linking to text is enabled by Text Fragments, which is currently supported in Chrome and Edge browsers. This functionality will not work in other browsers like Safari or Firefox. Linking to headers will work on all browsers.
 
 ## Contributing
 

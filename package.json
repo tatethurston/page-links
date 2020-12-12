@@ -1,6 +1,6 @@
 {
   "name": "page-links",
-  "description": "Share links to specfic sections or text on a webpage",
+  "description": "Generate and share links to text or headings on any webpage",
   "license": "MIT",
   "author": "Tate <tatethurston@gmail.com>",
   "repository": "git@github.com:tatethurston/page-links.git",
