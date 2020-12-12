@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Page Links",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Generate and share links to text or headings on any webpage",
   "short_name": "Page Links",
   "permissions": ["contextMenus", "activeTab"],
